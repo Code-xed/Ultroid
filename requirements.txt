@@ -10,3 +10,5 @@ requests
 aiohttp
 catbox-uploader
 cloudscraper
+psycopg2-binary
+psycopg2
