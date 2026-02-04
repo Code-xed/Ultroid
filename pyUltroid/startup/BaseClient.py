@@ -215,7 +215,7 @@ class UltroidClient(TelegramClient):
 
     def run_in_loop(self, function):
         """run inside asyncio loop"""
-        return self.loop.run_until_complete(function)
+        return await self.loop.run_until_complete(function)
 
     def run(self):
         """run asyncio loop"""
